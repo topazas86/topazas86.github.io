@@ -1,0 +1,200 @@
+body{
+  background-color: grey;
+  margin: 0 ;
+  width: 100%;
+
+}
+#header{
+  height:100px;
+  background-color: blue;
+  }
+#nav{
+  position:absolute;
+  background-color: black;
+  height:100px;
+  width:1350px;
+  text-transform: uppercase;
+  color:red;
+  display: inline-block;
+  text-align: center;
+}
+.nav-ul li{
+  display: inline-block;
+  padding-right: 50px;
+}
+.nav-ul a{
+  color:red;
+}
+.nav-ul a:hover{
+  color:orange;
+}
+#nav h1{
+  text-align: center;
+  color:green;
+  font-size: 30px;
+  letter-spacing:2em;
+}
+  #nav img{
+    width:100px;
+    height: 100px;
+    position: absolute;
+    left:0;
+    margin: 0;
+    border-radius: 50%;
+    }
+  #footer{
+    background-color: black;
+    height: 200px;
+    width:1350px;
+    padding-top: 10PX;
+        }
+  #footer img{
+    width:50px;
+    height: 50px;
+    left:650px;
+    position: absolute;
+  }
+  #footer h1{
+    color:green;
+  text-align:center;
+  text-decoration:none;
+
+      }
+      #footer p {
+        color:green;
+        text-align:center;
+        font-size: 24px;
+        text-decoration: none;
+      }
+
+      #content{
+      height: 800px;
+      width: 1350px;
+    }
+    .back-content{
+  height:20px;
+    }
+    #content-img img {
+      padding:100px;
+      border-radius:30%;
+    }
+
+    #menu-img img{
+      height:600px;
+      width:400px;
+      padding-left: 200px;
+          }
+    #content h1{
+      color:yellow;
+     text-align: center;
+        }
+      .btn1,.btn2,.btn3,.btn5,.btn20,.btn6,.btn7,.btn8,.btn9,.btn10,.btn11,.btn12,.btn13,.btn14{
+      border-color: blue;
+      width: 150px;
+      height: 70px;
+      color:brown;
+      background-color: white;
+      font-size: 20px;
+      font-style: italic;
+      font-weight: bold;
+
+          }
+
+      #buttons h2{
+        color:yellow;
+        font-size: 30px;
+        left:420px;
+        position:relative;
+      }
+      #buttons{
+        position: absolute;
+        left:180px;
+      }
+      #gumbling{
+        position:absolute;
+        top:700px;
+        left:500px;
+      }
+      #gumbling button{
+        border-color: blue;
+        width: 100px;
+        height: 50px;
+        color:blue;
+        background-color: green;
+        font-size: 20px;
+        font-style: italic;
+        left:150px;
+        position: absolute;
+        top:70px;}
+        #first,#second{
+          width: 50px;
+          height: 50px;
+          background-color: grey;
+          position: relative;
+          left:100px;
+        }
+        #test{
+          position:relative;
+          top:60px;
+          left:150px;
+          color:red;
+          font-size: 28px;
+        }
+        #gumbling label{
+          position:relative;
+          left:100px;
+        }
+
+        #compet-img1{
+          width:600px;
+          height: 400px;
+        }
+        #compet-img1 img{
+          width:300px;
+          height: 200px;
+          padding:10px;
+          display: grid;
+
+        }
+
+      .billard {
+        position: absolute;
+        left: 1000px;
+        top:120px;
+      }
+      .taoli{
+        position: absolute;
+        left: 1000px;
+        top:380px;     }
+      #btnd,#btnpc,#btnps{
+        width:100px;
+        height:30px;
+        position: relative;
+        left:100px;
+         }
+        #btnbl{
+          width:100px;
+          height:30px;
+          position: relative;
+          left:1110px;
+          display:grid;
+          bottom:525px; }
+          #btnt{
+            width:100px;
+            height:30px;
+            position: relative;
+            left:1110px;
+            display:grid;
+            bottom:300px;
+          }
+        #tarea{
+          visibility: hidden;
+          position: absolute;
+          background-color:grey;
+          left:450px;
+          top:200px;
+          height: 400px;
+          width:400px;
+          text-align: center;
+          font-size: 28px;
+        }
